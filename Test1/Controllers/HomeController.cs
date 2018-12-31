@@ -27,5 +27,12 @@ namespace Test1.Controllers
 
             return View();
         }
+
+        public ActionResult NewMOdule()
+        {
+            ViewBag.Message = "新模块分支";
+
+            return View();
+        }
     }
 }
