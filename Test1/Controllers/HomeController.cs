@@ -10,7 +10,8 @@ namespace Test1.Controllers
     {
         public ActionResult Index()
         {
-            return View();//11
+            //主分支
+            return View();
         }
 
         public ActionResult About()
